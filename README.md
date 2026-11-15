@@ -10,6 +10,8 @@ Original song: [https://youtu.be/9Lxr8EW_TL0](https://youtu.be/9Lxr8EW_TL0)
 
 This video was directed by a music-video bot built from the [Tempotage template](https://x.ai/bot/0MgEiSVzQaByzMurkhxSs). Anyone can start from the same template and make their own.
 
+![Video thumbnail at 3:20: VEX smirks on her junkyard bike as the Demon King's pompadour burns, and he slaps at the flames.](images/thumb-pompadour-on-fire-3m20s-1280x720.jpg)
+
 This write-up is a full, honest record of how the video was made: the timeline, the tools, the people and agents, the prompts we actually have, the generation counts, the 4K pass, the usage readings, and what we learned. Every number comes from a log, a progress file, or a usage report. Where a number was never recorded, this page says so instead of guessing. All times are Pacific Time (PT).
 
 The method follows the stills-first approach used on SCREAM, Figuring it out, and I Don't Need Removal, itself a tighter method than the many-takes burn recorded in the [ARTAPOELC homage process post](https://github.com/littletechbird/artapoelc-homage-process). This is also the first of these videos cut under a new hard rule: no shot in the edit may be shorter than about 2 seconds, and the cut is scanned for flash frames before the 4K pass.
@@ -49,6 +51,12 @@ The method follows the stills-first approach used on SCREAM, Figuring it out, an
 
 The picture was built silent first, then a separate copy had the song laid underneath for review. v2 is an edit of the same 40 motion clips, not a later recut with new generations: the builder dropped the first frame of every clip window (Grok Imagine image-to-video starts on the still) and closed a one-frame sliver at the head of shot 15. v1 was left in place. There was no later recut of the 4K master.
 
+The thumbnail pick, shown at the top of this page, is the frame at 3:20.5 from the finished 4K master: VEX smirking as the King slaps at his burning pompadour.
+
+N U B's official YouTube thumbnail for the song is below. VEX was redesigned from that goth-elf image: the crop top was covered with a moto jacket over a tee, and the open grin became a sly closed smirk.
+
+![Official YouTube thumbnail for N U B's Nothing to Lose: a goth elf girl in a black crop top stands against a concrete wall, with purple paint splatter and the song title on the image.](images/thumb-nub-official-youtube-1280x720.jpg)
+
 ## The story and the tone
 
 Last row, nothing to lose: a broke goth elf mechanic everybody calls crazy builds a junkyard motorbike, crashes the Demon King's rigged Inferno Grand Prix, turns her own pocket demons into her pit crew, and wins because she is the only racer with nothing to lose. Every dark line plays as cartoon-hell bravado. The demons are tiny and needy. The Demon King is a vain showman with a flammable pompadour. In the finale his hair catches fire, he hands over his singed crown, and she puts it on Littlebird.
@@ -58,6 +66,16 @@ The art direction was painterly cel-shaded anime, in the same look family as SCR
 The lead, **VEX**, is an original adult, about 24, redesigned from the song thumbnail (a goth elf girl with a purple paint splatter). Long straight black hair with violet streaks and choppy bangs; pointed elf ears with a small silver hoop in the left ear; violet eyes; pale skin; a splash of violet paint across her right cheek; brass welding goggles pushed up on her head. A cropped black leather moto jacket, sleeves pushed up, over a plain black tee with a violet paint splatter and no logo, covering the thumbnail's crop top. Black-and-violet striped fingerless arm warmers, black cargo pants with a silver wallet chain, chunky black lace-up boots, and a big steel wrench with a violet-taped handle. Mouth closed; signature is a sly one-sided closed smirk and deadpan eyes. Two arms, five fingers per hand.
 
 **The bike** is a scrappy matte-black junkyard motorbike of mismatched parts: one big round headlight, an exposed engine, violet flame paint on the tank, and an exhaust that spits violet fire. No text, no badges. **The imps**, from shot 04, are three fist-sized round violet imps with stubby horns, little bat wings, big yellow eyes, and only a small closed mouth line: needy, dramatic, loyal. **The Demon King**, from shot 07, is a tall vain showman: red skin, two curled gold horns, a huge glossy white pompadour, gold aviator sunglasses, a white suit with gold flame trim, and a gold chopper. Smug, never truly menacing, mouth closed. **Littlebird** appears from shot 27 as a shy pit-crew friend, in the same helmet-off design used on the earlier videos, person-sized, about Vex's shoulder height. His beak has to stay visible, in profile or three-quarter, so he never reads as a bear. Rivals, crowd, and neighbors are original adult demons and ghouls. Every human and humanoid is an adult.
+
+![Character sheet, VEX portrait: an adult goth elf mechanic with violet-streaked black hair, a paint splash on her right cheek, welding goggles on her head, and a violet-taped wrench on her shoulder.](images/ref-vex-portrait-1280x720.jpg)
+
+![Character sheet, VEX full body: she stands with her junkyard motorbike in a burning violet junkyard, wrench in hand, cargo pants, boots, and wallet chain visible.](images/ref-vex-full-body-1280x720.jpg)
+
+![Character sheet, the Demon King and the three pocket imps: a tall red-skinned showman in a white suit with gold flame trim and a white pompadour, beside three tiny round violet imps with bat wings.](images/ref-imps-and-demon-king-1280x720.jpg)
+
+Littlebird's ref, reused from I Don't Need Removal:
+
+<img src="images/ref-littlebird-864x1152.jpg" width="360" alt="Character sheet, Littlebird: a shy sky-blue bird in a peach-orange puffy jacket, slate jeans, and black headphones, beak visible in three-quarter view.">
 
 Method rules:
 
@@ -226,6 +244,20 @@ Song: N U B, "Nothing to Lose – NUB | Royalty Free Aggressive Trap / Rap", CC 
 **Thesis, art direction, character lock, and anti-list:** as in [The story and the tone](#the-story-and-the-tone).
 
 **Generation plan:** 3 refs, then 39 stills, one each, refs attached, regenerate only clear failures. Then 39 motion takes, 10 s 720p image-to-video, in parallel, with a maximum of one reshoot per shot and keep-partials allowed. Budget: 61.9% at the start, target about 1 to 1.5% per finished minute, soft stop 68%, hard stop 72%.
+
+Key stills from the approved set, in story order:
+
+![Shot 01 still: VEX sits on a creeper board in a violet night junkyard, pushing her welding goggles up, deadpan, a glowing garage behind her.](images/still-01-junkyard-wake-1280x720.jpg)
+
+![Shot 04 still: VEX sits on the lit junkyard bike holding one tiny violet imp, while two more tumble out of the violet exhaust fire.](images/still-04-kick-start-imps-1280x720.jpg)
+
+![Shot 06 still: from a rooftop edge, VEX looks up at the floating red-and-gold Inferno Arena, crowned by a giant glowing gold crown, searchlights sweeping the city.](images/still-06-inferno-arena-1280x720.jpg)
+
+![Shot 27 still: Littlebird, beak visible in three-quarter view, offers VEX his hand in the ash, a toolbox in the other hand.](images/still-27-get-up-1280x720.jpg)
+
+![Shot 38 still: VEX sets the gold crown on Littlebird's head as the three imps cheer and fireworks burst over the arena.](images/still-38-crown-on-littlebird-1280x720.jpg)
+
+![Shot 39 still: a close-up of VEX on the bike at ember sunrise, goggles up, with a sly closed smirk.](images/still-39-sunrise-smirk-1280x720.jpg)
 
 | # | Time | Lyric | Picture / action | Beat |
 |---|------|-------|------------------|------|
